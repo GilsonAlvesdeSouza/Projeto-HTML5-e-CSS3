@@ -101,6 +101,7 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+
 }
 
 .main_blog .main_blog_header{
@@ -144,4 +145,39 @@
     color: #D36833;
 }
 
+/*main optin*/
+.main_optin{
+    width: 100%;
+    background: #2D3142;
+}
+
+.main_optin_content{
+    max-width: calc(1300px - 40px);
+    padding: 40px 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.main_optin_content header, .main_optin_content form{
+    flex-basis: 50%;
+}
+
+.main_optin_content header h1, .main_optin_content header p{
+    color: #FFFFFF;
+    margin-right: 20px;
+    text-align: right;
+}
+
+.main_optin_content header h1{
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.main_optin_content header p{
+    font-weight: 300;
+}
+
+.main_optin_content form{
+    display: flex;
+}
 
