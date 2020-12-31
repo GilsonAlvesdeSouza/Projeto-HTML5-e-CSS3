@@ -184,7 +184,7 @@
     justify-content: space-between;
 }
 
-.main_optin_content form input[type=text], .main_optin_content form input[type=email]{
+.main_optin_content form input[type=text], .main_optin_content form input[type=email] {
     flex-basis: 37%;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -193,7 +193,7 @@
     padding: 0 10px;
 }
 
-.main_optin_content form button{
+.main_optin_content form button {
     flex-basis: 20%;
     border-radius: 10px;
     -moz-border-radius: 10px;
@@ -216,25 +216,25 @@
     margin-bottom: 40px;
 }
 
-.main_course .main_course_header img{
+.main_course .main_course_header img {
     margin-bottom: 20px;
 }
 
-.main_course .main_course_header h1{
+.main_course .main_course_header h1 {
     font-size: 3em;
     margin-bottom: 10px;
 }
 
-.main_course_content{
+.main_course_content {
     max-width: 1300px;
-    margin:  0 auto;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     margin-bottom: 40px;
 }
 
-.main_course_content article{
+.main_course_content article {
     flex-basis: calc(50% - 40px);
     margin: 20px 0;
     background-color: #EBEBEB;
@@ -244,13 +244,70 @@
     padding: 20px;
 }
 
-.main_course_content article h2{
+.main_course_content article h2 {
     font-size: 1.3em;
     color: #333333;
     margin-bottom: 4px;
 }
 
-.main_course_content article p{
+.main_course_content article p {
     font-size: 0.9em;
     color: #333333;
+}
+
+.main_curse_fullwidth {
+    width: 100%;
+    background-color: #D36833;
+    padding: 40px 0;
+}
+
+.main_course_rating_content {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.main_course_rating_content_title {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.main_course_rating_content_title h2 {
+    font-size: 2.4em;
+    margin-bottom: 20px;
+}
+
+.main_course_rating_content_comment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.main_course_rating_content_comment > header {
+    flex-basis: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1.8em;
+    margin: 20px 0;
+}
+
+.main_course_rating_content_comment > article {
+    flex-basis: calc(50% - 20px);
+    margin: 20px 0;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    padding: 20px;
+    color: #333333;
+}
+
+.main_course_rating_content_comment > article h3{
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
+
+.main_course_rating_content_comment > article img{
+    width: 18px;
+    margin-top: 5px;
+    margin-bottom: 2px;
 }
