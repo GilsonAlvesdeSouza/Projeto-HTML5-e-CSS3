@@ -520,7 +520,7 @@
 
 .main_optin_footer_content {
     max-width: 1300px;
-    padding: 40px 0;
+    padding: 40px 20px;
     color: #333333;
 }
 
@@ -544,7 +544,7 @@
 
 .main_footer {
     max-width: 1300px;
-    padding: 40px 0;
+    padding: 40px 20px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -770,6 +770,15 @@
 
     .main_course_rating_content_title h2 {
         font-size: 1.8em;
+    }
+
+    .main_footer article{
+        flex-basis: calc(50% - 10px);
+    }
+
+    .main_footer_sobre_projeto{
+        flex-basis: 100% !important;
+        margin-top: 30px;
     }
 }
 
