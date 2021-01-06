@@ -264,6 +264,7 @@
 
 .main_course_rating_content {
     max-width: 1300px;
+    padding:  0 20px;
     margin: 0 auto;
 }
 
@@ -701,12 +702,6 @@
     }
 }
 
-/* 900px */
-@media (max-width: 56em) {
-
-}
-
-
 /* 768px */
 @media (max-width: 48em) {
     .main_header_content_menu {
@@ -736,12 +731,24 @@
     .main_blog article {
         flex-basis: calc(33% - 10px);
     }
+
+    .main_course_rating_content_title h2{
+        font-size: 1.8em;
+    }
 }
 
 /* 640px */
 @media (max-width: 40em) {
     .main_blog article {
         flex-basis: calc(50% - 10px);
+    }
+
+    .main_course_rating_content_comment >article{
+        flex-basis: 100%;
+    }
+
+    .main_course_rating_content_comment h2{
+        font-size: 0.8em;
     }
 }
 
